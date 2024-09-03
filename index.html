@@ -1,47 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/SCSS/main.css">
+    <link rel="icon" href="./src/assets/logo/logo-pequena-colorida.png">
+    <title>VTEX</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="icon" href="./src/assets/logo/logo-pequena-colorida.png">
-  <link rel="stylesheet" href="./src/Style/main.css">
-  <title>VTEX</title>
-</head>
-
-<body>
-  <section id="header" class="header">  
-    <div id="logo" class="logo"><img src="./src/assets/logo/logo-pequena-colorida.png" alt="" srcset="">VTEX<a href="/"></a></div>
-    <div id="search" class="search"></div>
-
-    <div id="navbar" class="navbar">
-      <ul>
-        <li><a href="#"></a>
-          <img src="./src/assets/icons/Group.png" alt="Ícone não identificado."></li>
-        <li><a href="#favorite"></a><img src="./src/assets/icons/Heart.png" alt="Ícone de coração, representando seus itens favoritados."></li>
-        <li><a href="#user"></a><img src="./src/assets/icons/UserCircle.png" alt="Ícone representando um usuário fictício."></li>
-        <li><a href="#shopping"></a><img src="./src/assets/icons/ShoppingCart.png" alt="Ícone de carrinho de compras, representando seus itens selecionados pelo botão 'comprar'."></li>    
-      </ul>
-    </div>
-  </section>
-
-  
-
-  <section id="products" class="products"></section>
-
-  <section id="colab" class="colab"></section>
-
-  <section id="relacionados" class="relacionados"></section>
-  <section id="marcas" class="marcas"></section>
-  <section id="mkt" class="mkt"></section>
-
-
-  <section id="footer" class="footer">
-    <div id="about-us" class="about-us"></div>
-    <div id="infos" class="infos"></div>
-    <div id="payment" class="payment"></div>
-  </section>
-
-  <script src="./src/index.ts"></script>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
