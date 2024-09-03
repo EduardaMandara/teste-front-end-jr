@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0 ;
   margin: 0;
   box-sizing: border-box;
 }
@@ -17,19 +17,19 @@ li {
   margin: 0;
   padding: 0;
 }
+ 
+
+$background-color: #DEE7DD;
+$text-default: #ffffff;
+
+@mixin type-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  @include type-text;
 }
 
-body {
-  background: #DEE7DD;
-}
-body .logo {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}/*# sourceMappingURL=main.css.map */
+

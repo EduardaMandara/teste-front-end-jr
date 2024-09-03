@@ -1,25 +1,10 @@
-* {
-  padding: 0 ;
-  margin: 0;
-  box-sizing: border-box;
- }
+@import 'base';
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-span {
-  color: #F71963;
-}
-
+body {
+  background: $background-color;
+  .logo {
+    color: $text-default;
+    @include type-text;
+  }
+};
 
