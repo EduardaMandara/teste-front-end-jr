@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                 </button>
             </div>
             <div className="header__icons">
-                <img src="user-icon.png" alt="Usuário" />
+                <img src="C:\Users\eduar\Desktop\teste-front-end-jr-1\src\assets\icons\UserCircle.png" alt="Usuário" />
                 <img src="favorites-icon.png" alt="Favoritos" />
                 <img src="cart-icon.png" alt="Carrinho" />
                 <img src="more-icon.png" alt="Mais" />

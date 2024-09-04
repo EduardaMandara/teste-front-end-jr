@@ -1,8 +1,10 @@
 @import 'base';
-@import 'Header.scss';
+@import 'Header';
 
 body {
   background: $background-color;
+  @include type-text;
+
   .logo {
     color: $text-default;
     @include type-text;

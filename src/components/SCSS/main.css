@@ -24,53 +24,56 @@ li {
   font-style: normal;
 }
 
-.header {
+.header__icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: white;
 }
-.header__logo img {
+.header__icons__logo img {
   height: 40px;
 }
-.header__nav {
+.header__icons__nav {
   display: flex;
   gap: 20px;
 }
-.header__nav-item {
+.header__icons__nav-item {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-.header__search {
+.header__icons__search {
   display: flex;
   align-items: center;
 }
-.header__search input {
+.header__icons__search input {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.header__search button {
+.header__icons__search button {
   background: none;
   border: none;
   cursor: pointer;
 }
-.header__search img {
+.header__icons__search img {
   height: 20px;
 }
-.header__icons {
+.header__icons__icons {
   display: flex;
   gap: 15px;
 }
-.header__icons img {
+.header__icons__icons img {
   height: 25px;
   cursor: pointer;
 }
 
 body {
   background: #DEE7DD;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 body .logo {
   color: #ffffff;
