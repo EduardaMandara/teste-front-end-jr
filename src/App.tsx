@@ -1,12 +1,18 @@
-import { useState } from 'react'
-import './SCSS/main.scss'
+import React from 'react';
+import Header from './components/Header';
+import ProductList from './components/ProductList';
 
-function App() {
-  let [count, setCount] = useState(0)
-
+let App: React.FC = () => {
   return (
-    <App/>
-  )
-}
+    <div className="App">
+      <Header />
+      {/* <Banner /> */}
+      <div className="Product_List">
+        <h1>Lista de Produtos</h1>
+        <ProductList />
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
